@@ -19,12 +19,12 @@ function absAmount(value) {
 function getCaption(amount, provider, mobile) {
   if (amount >= 5000) {
     return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+==============
 🚨 <b>JACKPOT PAYOUT CONFIRMED</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+==============
 ⚡ REAL WIN • REAL PAYOUT
 🌐 Trusted Worldwide • Fair & Transparent • 24/7 Service
 🪙 Instant Deposit: 5–15s
@@ -35,12 +35,12 @@ function getCaption(amount, provider, mobile) {
 
   if (amount >= 2000) {
     return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+==============
 💥 <b>MEGA WIN JUST LANDED!</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+==============
 ⚡ REAL WIN • REAL PAYOUT
 🌐 Trusted Worldwide • Fair & Transparent • 24/7 Service
 🪙 Instant Deposit: 5–15s
@@ -51,12 +51,12 @@ function getCaption(amount, provider, mobile) {
 
   if (amount >= 1000) {
     return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+==============
 🔥 <b>AUDGO BIG WIN ALERT!</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 <b>${provider}</b>
 📱 ${mobile}
-━━━━━━━━━━━━━━
+==============
 ⚡ FAST PAYOUT SYSTEM
 🐨 Trusted by AU Players
 🪙 Instant Deposit: 5–15s ✅
@@ -66,12 +66,12 @@ function getCaption(amount, provider, mobile) {
   }
 
   return `🎉 <b>CONGRATULATIONS!</b>
-━━━━━━━━━━━━━━
+==============
 📢 <b>LATEST AUDGO WIN UPDATE!</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
-━━━━━━━━━━━━━━
+==============
 ⚡ FAST PAYOUT SYSTEM
 🐨 Trusted by AU Players
 🪙 Instant Deposit: 5–15s ✅
