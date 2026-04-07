@@ -20,15 +20,15 @@ function getCaption(amount, provider, mobile) {
   if (amount >= 5000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-👑 <b>JACKPOT PAYOUT CONFIRMED</b>
+🚨 <b>JACKPOT PAYOUT CONFIRMED</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
 ━━━━━━━━━━━━━━
 ⚡ REAL WIN • REAL PAYOUT
-🐸 Australia Trusted Platform
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+🌐 Trusted Worldwide • Fair & Transparent • 24/7 Service
+🪙 Instant Deposit: 5–15s
+🪙 Fast Withdrawal: 2–5 min 🚀
 ━━━━━━━━━━━━━━
 💎 <a href="https://audgo.net/RFPREMIUMLINK">START WINNING NOW</a >`;
   }
@@ -36,14 +36,15 @@ function getCaption(amount, provider, mobile) {
   if (amount >= 2000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-🚨 <b>MEGA WIN JUST PAID</b>
+💥 <b>MEGA WIN JUST LANDED!</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
 ━━━━━━━━━━━━━━
-⚡ Instant Withdraw • AU Trusted
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+⚡ REAL WIN • REAL PAYOUT
+🌐 Trusted Worldwide • Fair & Transparent • 24/7 Service
+🪙 Instant Deposit: 5–15s
+🪙 Fast Withdrawal: 2–5 min 🚀
 ━━━━━━━━━━━━━━
 🔥 <a href="https://audgo.net/RFPREMIUMLINK">JOIN NOW & WIN BIG</a >`;
   }
@@ -51,29 +52,30 @@ function getCaption(amount, provider, mobile) {
   if (amount >= 1000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-🚨 <b>AUDGO BIG WIN ALERT</b>
+🔥 <b>AUDGO BIG WIN ALERT!</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 <b>${provider}</b>
 📱 ${mobile}
 ━━━━━━━━━━━━━━
 ⚡ FAST PAYOUT SYSTEM
-🐸 Trusted by AU Players
-🪙 Deposit 5–15s ✅
-🪙 Withdraw 2–5min ✅
+🐨 Trusted by AU Players
+🪙 Instant Deposit: 5–15s ✅
+🪙 Fast Withdrawal: 2–5 min ✅
 ━━━━━━━━━━━━━━
 🔥 <a href="https://audgo.net/RFPREMIUMLINK">CLICK NOW & WIN</a >`;
   }
 
   return `🎉 <b>CONGRATULATIONS!</b>
 ━━━━━━━━━━━━━━
-👽 <b>AUDGO WIN UPDATE</b>
+📢 <b>LATEST AUDGO WIN UPDATE!</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
 ━━━━━━━━━━━━━━
-⚡ Fast & Secure Payout
-🪙 Deposit 5–15s
-🪙 Withdraw 2–5min
+⚡ FAST PAYOUT SYSTEM
+🐨 Trusted by AU Players
+🪙 Instant Deposit: 5–15s ✅
+🪙 Fast Withdrawal: 2–5 min ✅
 ━━━━━━━━━━━━━━
 🌐 <a href="https://audgo.net/RFPREMIUMLINK">PLAY NOW</a >`;
 }
