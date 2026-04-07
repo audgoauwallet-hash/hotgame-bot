@@ -25,10 +25,10 @@ async function generateImage(data) {
   ctx.textAlign = 'center';
 
   // 金额
-  ctx.shadowColor = '#FFD700';
+  ctx.shadowColor = '#def3ff';
   ctx.shadowBlur = 18;
-  ctx.fillStyle = '#FFD700';
-  ctx.font = 'bold 80px Arial';
+  ctx.fillStyle = '#def3ff';
+  ctx.font = 'bold 80px system-ui';
   ctx.fillText(`AUD ${Math.abs(Number(data.amount || 0)).toFixed(2)}`, centerX, 120);
   ctx.shadowBlur = 0;
 
