@@ -28,7 +28,7 @@ async function generateImage(data) {
   ctx.shadowColor = '#def3ff';
   ctx.shadowBlur = 18;
   ctx.fillStyle = '#def3ff';
-  ctx.font = 'bold 80px system-ui';
+  ctx.font = 'bold 80px Poppins';
   ctx.fillText(`AUD ${Math.abs(Number(data.amount || 0)).toFixed(2)}`, centerX, 120);
   ctx.shadowBlur = 0;
 
