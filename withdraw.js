@@ -20,7 +20,7 @@ function getCaption(amount, provider, mobile) {
   if (amount >= 5000) {
     return `🎉 <b>CONGRATULATIONS!</b>
 ==============
-🚨 <b>JACKPOT PAYOUT CONFIRMED</b>
+💎 <b>JACKPOT PAYOUT CONFIRMED</b>
 💰 <b>AUD ${amount.toFixed(2)}</b>
 🎰 ${provider}
 📱 ${mobile}
