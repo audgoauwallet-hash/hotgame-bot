@@ -41,7 +41,7 @@ function getCaption(amount, provider, mobile) {
 🎰 ${provider}
 📱 ${mobile}
 ==============
-⚡ REAL WIN • REAL PAYOUT
+⚡ Instant Withdraw • AU Trusted
 🌐 Trusted Worldwide • Fair & Transparent • 24/7 Service
 🪙 Instant Deposit: 5–15s
 🪙 Fast Withdrawal: 2–5 min 🚀
